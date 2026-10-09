@@ -1,0 +1,170 @@
+{
+  "ancrage_maitre": {
+    "auteur": "MOHAMED NOUR KAYAD",
+    "orcid": "0009-0002-1443-7599",
+    "affiliation": "Ministère de l'Éducation Nationale et de la Formation Professionnelle (MENFOP) / CERD, Djibouti",
+    "email_contact": "mnkr20232030@gmail.com",
+    "programme_cadre": "SCCI-Core & Formalisme Mathématique de Kayad (Mkk)",
+    "date_scellage_utc": "2026-10-09T05:57:00Z",
+    "tiers_de_confiance": "Horodater.org (Preuve d'existence et d'antériorité)",
+    "statut_epistemic": "Livre blanc et manuscrits de recherche — validation et intégrité scci"
+  },
+  "infrastructure_algorithmique": {
+    "description": "Totalité de la trentaine (30) de moteurs de calcul couplés, exécutés en environnement contraint",
+    "moteurs_principaux_sha256": {
+      "build_scci_package.sh": "CALCULE_AUTOMATIQUEMENT_PAR_SCRIPT_LOCALE",
+      "spectral_duality_jax_core.py": "CALCULE_AUTOMATIQUEMENT_PAR_SCRIPT_LOCALE",
+      "laplace_beltrami_solver.py": "CALCULE_AUTOMATIQUEMENT_PAR_SCRIPT_LOCALE",
+      "wigner_weyl_phase_space.py": "CALCULE_AUTOMATIQUEMENT_PAR_SCRIPT_LOCALE",
+      "riemann_zeta_confinement.py": "CALCULE_AUTOMATIQUEMENT_PAR_SCRIPT_LOCALE"
+    }
+  },
+  "corpus_manuscrits_zenodo_2026": {
+    "PILIERS_COSMOLOGIE_ET_RELATIVITE_EHK": [
+      {
+        "titre": "Modèle Einstein-Hilbert-Kayad : axiomatique, action de bord, symétries",
+        "type": "Preprint",
+        "moteurs_requis": ["wigner_weyl_phase_space.py"]
+      },
+      {
+        "titre": "Modèle EHK à torsion saturante : dynamique cosmologique, stabilité",
+        "type": "Preprint",
+        "moteurs_requis": ["wigner_weyl_phase_space.py"]
+      },
+      {
+        "titre": "Vers une équation de champ d'Einstein généralisée : Couplage métrique-torsion",
+        "type": "Preprint / Peer review (v3)",
+        "moteurs_requis": ["wigner_weyl_phase_space.py"]
+      },
+      {
+        "titre": "Generalized Einstein Equations and su(2) Cosmology: Predictive Proof for JWST Anomalies",
+        "type": "Project milestone",
+        "moteurs_requis": ["spectral_duality_jax_core.py", "wigner_weyl_phase_space.py"]
+      },
+      {
+        "titre": "Extension conforme non abélienne SU(2) de la relativité générale",
+        "type": "Peer review",
+        "moteurs_requis": ["wigner_weyl_phase_space.py"]
+      },
+      {
+        "titre": "Dynamique des Trous Noirs dans le Cadre SCCI-2026 Extension Causale, Scalaire-Tenseur",
+        "type": "Preprint",
+        "moteurs_requis": ["wigner_weyl_phase_space.py"]
+      },
+      {
+        "titre": "The Galactic Diapason: Central Supermassive Black Holes as Phase Synchronizers",
+        "type": "Proposal",
+        "moteurs_requis": ["wigner_weyl_phase_space.py"]
+      }
+    ],
+    "PILIERS_THEORIE_SPECTRALE_ET_CONFINEMENT_DE_RIEMANN": [
+      {
+        "titre": "Entropic Spectral Stability at the Critical Line of the Riemann Zeta Function",
+        "type": "Preprint / Journal",
+        "moteurs_requis": ["riemann_zeta_confinement.py"]
+      },
+      {
+        "titre": "Entropy Bounds on Spectral Operators Associated with the Riemann Zeta Function",
+        "type": "Peer review",
+        "moteurs_requis": ["riemann_zeta_confinement.py"]
+      },
+      {
+        "titre": "Topological Confinement of Riemann and Dirichlet Zeros via PT-Symmetric Potentials",
+        "type": "Preprint",
+        "moteurs_requis": ["riemann_zeta_confinement.py", "spectral_duality_jax_core.py"]
+      },
+      {
+        "titre": "Sur le Confinement de la Fonction Zêta de Riemann par le Potentiel de Confinement",
+        "type": "Preprint",
+        "moteurs_requis": ["riemann_zeta_confinement.py"]
+      },
+      {
+        "titre": "Bornes d'Entropie, Métrique Adélique de Jensen-Shannon et Fond Diffus Cosmologique",
+        "type": "Peer review",
+        "moteurs_requis": ["riemann_zeta_confinement.py", "spectral_duality_jax_core.py"]
+      },
+      {
+        "titre": "Structure Mathématique, Métrologique et Informatique du Projet Riemann-Kayad",
+        "type": "Preprint",
+        "moteurs_requis": ["riemann_zeta_confinement.py"]
+      }
+    ],
+    "PILIERS_DESIGN_TRANSDUCTIF_BIO_IMPEDANCE_ET_CORPUS_QPM": [
+      {
+        "titre": "Architecture Topologique et Structures Transductives de la Bio-Régulation (Livre Blanc Final)",
+        "type": "Computational notebook",
+        "moteurs_requis": ["spectral_duality_jax_core.py"]
+      },
+      {
+        "titre": "Cohomologie transductive du corpus QPM : vers une lecture topos-théorique",
+        "collaborateur": "Jean-luc Ayoun",
+        "type": "Report (v2) / 40,000 bio-impedance measures",
+        "moteurs_requis": ["spectral_duality_jax_core.py", "laplace_beltrami_solver.py"]
+      },
+      {
+        "titre": "Vers une modélisation géométrique de l'impédance bioélectrique tissulaire",
+        "type": "Preprint",
+        "moteurs_requis": ["laplace_beltrami_solver.py"]
+      },
+      {
+        "titre": "Vers une théorie testable du design transductif : indicateurs MKK et H 1",
+        "type": "Peer review",
+        "moteurs_requis": ["spectral_duality_jax_core.py"]
+      },
+      {
+        "titre": "Théorie des fonctions non-linéaires et non-hermitiennes avec rétroaction d'état dans le design transductif",
+        "type": "Preprint",
+        "moteurs_requis": ["laplace_beltrami_solver.py"]
+      }
+    ],
+    "PILIERS_VERIFICATION_FORMELLE_SURETE_ET_ROBUSTESSE_ADVERSE": [
+      {
+        "titre": "Spécification formelle ACSL du redresseur géométrique médical critique",
+        "type": "Patent",
+        "moteurs_requis": ["moteur_05_acsl_frama_c_verifier.sh"]
+      },
+      {
+        "titre": "Vérification formelle des fonctions de contrôle de vol avec Frama-C-WP",
+        "type": "Software",
+        "moteurs_requis": ["moteur_05_acsl_frama_c_verifier.sh"]
+      },
+      {
+        "titre": "Modélisation Cyber-Physique et Vérification Déductive d'Unités Thermohydrauliques",
+        "type": "Peer review",
+        "moteurs_requis": ["moteur_05_acsl_frama_c_verifier.sh"]
+      },
+      {
+        "titre": "Cadre unifié EHK-SCCI-ASR pour la régulation géométrique et l'abstention des IA",
+        "type": "Preprint",
+        "moteurs_requis": ["laplace_beltrami_solver.py"]
+      },
+      {
+        "titre": "Spectral Filtering and Geometric Abstention in Deep Architectures: Multi-Layer Laplace-Beltrami Diagnostics",
+        "type": "Preprint",
+        "moteurs_requis": ["laplace_beltrami_solver.py"]
+      }
+    ],
+    "PILIERS_CHERN_KAYAD_ET_STRUCTURES_TOPOLOGIQUES_AVANCEES": [
+      {
+        "titre": "Topological Invariance of Higher-Order Chern-Kayad Classes Under Gauge Fields",
+        "type": "Preprint",
+        "moteurs_requis": ["spectral_duality_jax_core.py", "laplace_beltrami_solver.py"]
+      },
+      {
+        "titre": "On the Nilpotency and Cohomological Structure of Conformal de Rham-Kayad Complex",
+        "type": "Peer review",
+        "moteurs_requis": ["spectral_duality_jax_core.py"]
+      },
+      {
+        "titre": "Elliptic Structures and Index Theorems for the Conformal de Rham-Kayad Operator",
+        "type": "Peer review",
+        "moteurs_requis": ["spectral_duality_jax_core.py"]
+      },
+      {
+        "titre": "Topology of Third-Order Exceptional Points (EP3) and Hybrid Storage in Quantum Batteries",
+        "type": "Preprint",
+        "moteurs_requis": ["spectral_duality_jax_core.py"]
+      }
+    ]
+  }
+}
